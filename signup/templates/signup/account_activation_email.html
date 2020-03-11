@@ -1,0 +1,14 @@
+{% autoescape off %}
+{% if not user.profile.preferred_name %}
+Hi {{ user.first_name }},
+{% else %}
+Hi {{ user.profile.preferred_name }},
+{% endif %}
+
+Please click on the link below to confirm your registration:
+
+http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+Sincerely,
+The CitrusHack Team
+{% endautoescape %}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- AnimateOnScroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../../static/css/profile.css">
+    <link rel="shortcut icon" type="image/png" href="../../static/assets/img/favicon.png"/>
+
+	<title>John Smith - CitrusHack 2019</title>
+</head>
+<body>
+    <div id="content">
+    	<nav id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class = "nav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link link-hover" href="../../../home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-hover" href="./apply.html">APPLY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="">PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-hover" href="./login.html">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+
+        <div class="text-center">
+            <div class="ui-card" data-aos="fade-in" data-aos-easing="ease-in">
+                <div class = "row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 
+                    text-xl-right text-lg-right text-md-right text-sm-right text-right">
+                    	<div class="logo-container">
+    	                    <img src="../../static/assets/img/icon.png" alt="CitrusHack logo">
+                            <br>        
+                        </div>
+                    </div>     
+                    <div id="id-tags" class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 
+                    text-xl-left text-lg-left text-md-center text-sm-center text-center">
+                        <br>
+                        <h1 id="name">John Smith</h1>
+                        <p id="title">Back-end Tech Enthusiast</p> <!-- <p id="title">{user.description}</p> -->
+                        <p id="email">johnSmith@email.com</p> <!-- <p id="email">{user.email}</p>  -->
+                    </div>
+                    <br>
+                </div>
+                <div id="user-content">
+                    <div id="status-view" class="text-center">
+                        <h1 id="status-head" class="status">APPLICATION STATUS:</h1>
+                        <h2 id="status-value" class="status">ACCEPTED</h2><!-- <h2 class="status">{user.appstatus}</h2>  -->
+                    </div>
+                    <div class="table-responsive">
+                        <table id="user-info-table" class="table mobile-hide">
+                            <tbody>
+                                <!-- ACADEMIC -->
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="user-sec-label"><span class="label-text">ACADEMIC</span></td>
+                                    <td class="attr-name">School:</td>
+                                    <td class="user-attr">University of California - Riverside</td> <!-- <td class="user-attr">{user.school}</td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Level of Study:</td>
+                                    <td class="user-attr">Sophomore</td> <!-- <td class="user-attr">{user.level}</td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Grad Year:</td>
+                                    <td class="user-attr">2022</td> <!-- <td class="user-attr">{user.year}</td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Major:</td>
+                                    <td class="user-attr">Computer Science</td> <!-- <td class="user-attr">{user.major}</td>  -->
+                                </tr>
+                                <!-- DEMOGRAPHICS -->
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="user-sec-label"><span class="label-text">DEMOGRAPHIC</span></td>
+                                    <td class="attr-name">Gender:</td>
+                                    <td class="user-attr">Male</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Date of Birth:</td>
+                                    <td class="user-attr">5/5/2005</td> <!-- <td class="user-attr">{user.dob}</td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Race/Ethnicity:</td>
+                                    <td class="user-attr">Caucasian</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Phone Number:</td>
+                                    <td class="user-attr">(123) 456-7890</td> <!-- <td class="user-attr">{user.phone}</td>  -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Shirt Size:</td>
+                                    <td class="user-attr">M</td> <!-- <td class="user-attr">{user.}</td>  -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Dietary Restrictions:</td>
+                                    <td class="user-attr">Vegan</td> <!-- <td class="user-attr">{user.}</td>  -->
+                                </tr>
+                                <!-- PROFILE -->
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="user-sec-label"><span class="label-text">PROFILE</span></td>
+                                    <td class="attr-name">LinkedIn:</td>
+                                    <td class="user-attr"><a class="profile-link"href="{{ user.profile.linkedin }}">{{ user.profile.linkedin }}</a></td> <!-- <td class="user-attr"><a class="profile-link"href="{user.linkedin}">{user.linkedin}</a></td>  -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">GitHub:</td>
+                                    <td class="user-attr"><a class="profile-link"href="{{ user.profile.github }}">{{ user.profile.github }}</a></td> <!-- <td class="user-attr"><a class="profile-link"href="{user.github}">{user.github}</a></td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Personal:</td>
+                                    <td class="user-attr"><a class="profile-link"href="{{ user.profile.additional_link }}">{{ user.profile.additional_link }}</a></td> <!-- <td class="user-attr"><a class="profile-link"href="{user.website}">{user.website}</a></td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="attr-name">Resume:</td>
+                                    <td class="user-attr"><a class="profile-link"href="{{ user.profile.resume }}">{{ user.profile.resume }}</a></td> <!-- <td class="user-attr"><a class="profile-link"href="{user.resume}">{user.resume}</a></td> -->
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="user-sec-label"><span class="label-text">ESSAY</span></td>
+                                    <td class="attr-name"></td>
+                                    <td class="user-attr"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table id="mobile-table" class="table mobile">
+                            <tbody>
+                                <!-- ACADEMIC -->
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">School:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >University of California, Riverside</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Level of Study:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >Sophomore</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Grad Year:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >2022</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Major:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name">Computer Science</td>
+                                </tr>
+                                <!-- DEMOGRAPHICS -->
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Gender:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name">Male</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Date of Birth:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >05/05/2005</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Race/Ethnicity:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >Caucasian</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Phone Number:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >(123) 567-7890</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Shirt Size:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >M</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="user-attr-mobile">Dietary Restrictions:</td>
+                                </tr>
+                                <tr class="no-border">
+                                    <th scope="row"></th>
+                                    <td class="attr-name" >Vegan</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td class="attr-name" ></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <blockquote id="essay" class="mobile-hide">
+                        <p class="quotation"> 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    <footer> —John Smith</footer><!-- <footer> —{user.firstname} {user.lastname}</footer>  -->
+                    </blockquote> 
+
+                    <blockquote id="mobile-essay" class="mobile">
+                        <p class="quotation"> 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    <footer> —John Smith</footer>
+                    </blockquote> 
+                </div>
+            </div>
+        </div>
+        <div id = "footer" class="panel-type-2">
+            <p class="text-center">
+                <a target="_blank" class="iconSize" href="https://www.facebook.com/CitrusHack/"><i class="fab fa-facebook-f" id="fa-foot"></i></a>
+                <a target="_blank" class="iconSize" href="mailto:citrushack@gmail.com"><i class="fas fa-envelope" id="em-foot"></i></a>
+                <a target="_blank" class="iconSize" href="https://twitter.com/citrushack"><i class="fab fa-twitter" id="tw-foot"></i></a>
+                <a target="_blank" class="iconSize" href="https://www.instagram.com/citrushack_ucr/"><i class="fab fa-instagram" id="in-foot"></i></a>
+            </p>
+            <p class="info-text text-center text-shadow">
+                Website made with <span class="question-link" style="text-decoration: none; text-shadow: 0px 0px 4px var(--primary-accent-color); cursor:default;">&#9829;</span> in Riverside, CA<br>
+                &#169; 2019 CitrusHack
+            </p>
+        </div>
+    </div>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
